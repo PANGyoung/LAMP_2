@@ -962,7 +962,7 @@
             try {
                 const note = await fetchGeminiContent(userQuery, systemPrompt);
                 output.innerHTML = `
-                    <div class="text-sm bg-white p-4 rounded-lg border border-indigo-200 whitespace-pre-wrap font-mono">
+                    <div class="text-sm bg-white p-4 rounded-lg border border-indigo-200 font-mono" style="white-space: pre-wrap; text-align: left;">
                         ${note}
                     </div>
                 `;
@@ -1159,4 +1159,5 @@
         <div class="h-16 sm:h-0"></div>
     </div>
 </body>
+
 </html>
