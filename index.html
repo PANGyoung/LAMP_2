@@ -90,6 +90,7 @@
         
         // --- [신규] 마이페이지 & 커뮤니티 Mock Data ---
         const COMMUNITY_POSTS = [
+            { id: 1, category: "Q&A", title: "2026 간호사 국가고시 화이팅 >< ♥", author: "춘해 RnD", time: "1초 전", comments: 55, likes: 325, isProfessorCertified: false },
             { id: 1, category: "Q&A", title: "활력징후 측정 시 맥박이 불규칙할 때 팁 있나요?", author: "간호학생1", time: "10분 전", comments: 3, likes: 5, isProfessorCertified: false },
             { id: 2, category: "실습 꿀팁", title: "[필독] 무균술 장갑 착용 실수 줄이는 법", author: "김교수", time: "1시간 전", comments: 12, likes: 45, isProfessorCertified: true },
             { id: 3, category: "자유", title: "내일 실습 시험 너무 떨려요 ㅠㅠ", author: "떨리는콩", time: "3시간 전", comments: 8, likes: 10, isProfessorCertified: false },
@@ -97,20 +98,20 @@
         ];
 
         const USER_PROFILE = {
-            name: "김간호",
-            id: "20240123",
-            level: 3,
-            levelTitle: "열정적인 간호학생",
+            name: "춘해 RnD",
+            id: "20251128",
+            level: 4,
+            levelTitle: "캡스톤 마스터",
             history: ["활력징후 측정", "손위생", "단순도뇨"],
             stats: [85, 90, 70, 95, 80] // 정확성, 안전, 속도, 환자응대, 지식
         };
 
         const MOCK_STUDENT_DATA = [
-            { id: "2024001", name: "김간호", score: 85, progress: 100, lastSkill: "활력징후 측정", status: "완료", weakPoint: "손위생" },
-            { id: "2024002", name: "이성실", score: 92, progress: 100, lastSkill: "활력징후 측정", status: "완료", weakPoint: "혈압 측정" },
-            { id: "2024003", name: "박열정", score: 60, progress: 70, lastSkill: "활력징후 측정", status: "진행중", weakPoint: "맥박 측정" },
-            { id: "2024004", name: "최미래", score: 0, progress: 10, lastSkill: "-", status: "미시작", weakPoint: "-" },
-            { id: "2024005", name: "정케어", score: 78, progress: 100, lastSkill: "활력징후 측정", status: "완료", weakPoint: "환자 확인" },
+            { id: "2024001", name: "천민승", score: 85, progress: 100, lastSkill: "활력징후 측정", status: "완료", weakPoint: "손위생" },
+            { id: "2024002", name: "차지", score: 92, progress: 100, lastSkill: "활력징후 측정", status: "완료", weakPoint: "혈압 측정" },
+            { id: "2024003", name: "손지", score: 60, progress: 70, lastSkill: "활력징후 측정", status: "진행중", weakPoint: "맥박 측정" },
+            { id: "2024004", name: "민주", score: 0, progress: 10, lastSkill: "-", status: "미시작", weakPoint: "-" },
+            { id: "2024005", name: "이춘해해", score: 78, progress: 100, lastSkill: "활력징후 측정", status: "완료", weakPoint: "환자 확인" },
         ];
 
         // --- 술기 목록 데이터 ---
@@ -1553,6 +1554,7 @@
     </div>
 </body>
 </html>
+
 
 
 
